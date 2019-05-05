@@ -3,7 +3,7 @@ layout: page
 title: Archive
 ---
 
-<h1 class="page-title">Tech</h1>
+<h3>Tech</h3>
 
 {% for post in site.categories.Tech offset:3 %}
   <article class="post">
