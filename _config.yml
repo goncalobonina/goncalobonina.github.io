@@ -1,0 +1,22 @@
+permalink:           /:categories/:short_year/:title/
+
+title:               Bonina
+tagline:             eu
+url:                 https://goncalobonina.github.io
+paginate:            3
+baseurl:             "https://goncalobonina.github.io"
+
+sass:
+  sass_dir:          _sass
+  style:            :compressed
+
+pages_list:
+  Tech: '/tech'
+  Finance: '/finance'
+  Health: '/health'
+  About: '/about'
+
+collections:
+  tech:
+    output: true
+    permalink: /:collection/:title/

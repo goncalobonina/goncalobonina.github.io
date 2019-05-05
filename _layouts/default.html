@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+{% include head.html %}
+<body>
+
+<!-- Note
+<div style="background:yellow;padding:5px">
+  <h4 style="text-align:center">Notes here.</h4>
+</div> -->
+
+<!-- Header 
+<div class="header">
+  <span id="b1">
+    <span id="b2"></span>
+    <span id="b3"></span>
+  </span>
+</div> -->
+
+<!-- Logo Navigation Bar -->
+<div class="navbar">
+  <span id="b1">
+    <span id="b2"></span>
+    <span id="b3"></span>
+  </span><div class="navbar">
+  {% for page in site.pages_list %}
+    <a class="nohover" href="{{ page[1] }}">{{ page[0] }}</a>
+  {% endfor %}</div>
+</div>
+
+<!-- The flexible grid (content) -->
+<div class="row">
+  <div class="side">
+    <h2>About Me</h2>
+    <h5>Photo of me:</h5>
+    <div class="fakeimg" style="height:200px;">Image</div>
+    <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
+    <h3>More Text</h3>
+    <p>Lorem ipsum dolor sit ame.</p>
+    <div class="fakeimg" style="height:60px;">Image</div><br>
+    <div class="fakeimg" style="height:60px;">Image</div><br>
+    <div class="fakeimg" style="height:60px;">Image</div>
+  </div>
+  <div class="main">
+    {{ content }}
+  </div>
+</div>
+  {% include footer.html %}
+</body>
+</html>

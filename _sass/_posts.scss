@@ -1,0 +1,39 @@
+.page,
+.post {
+  margin-top: 1em;
+  margin-bottom: 4em;
+}
+
+//.page-title,
+//.post-title,
+//.post-title a {
+//  color: #cecece;
+//}
+  
+.page-title,
+.post-title {
+  margin-top: 0;
+  margin-bottom: .2em;
+}
+
+.post-categories {
+  display: block;
+  margin-top: 0em;
+  margin-bottom: 1em;
+  color: #646464;
+}
+
+.post-more {
+  padding-top: 0.1rem;
+  padding-left: 0.2rem;
+  padding-right: 0.2rem;
+  padding-bottom: 0.1rem;
+  display: inline-block;
+  /*border: 0.1rem;*/
+  /*border: 0.1rem solid #36D6BC; mudei*/
+  background-color: #ffffff;
+  border: 0.1rem solid #f08b83;
+  border-radius: 5px;
+  margin: 0;
+  margin-top: 0.8rem;
+}

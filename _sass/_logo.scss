@@ -1,0 +1,33 @@
+#b1 {
+  position: relative;
+  margin: 1em;
+  //position: absolute;
+  //top: 1em;
+  //left: 1em;
+  width: 3em;
+  height: 3em;
+  background: #555555;
+  border-radius: 50%  
+}
+
+#b2 {
+  position: absolute;
+  top: .56em;
+  left: .77em;
+  display: block;
+  width: 1.55em;
+  height: .75em;
+  background-color: white;
+  border-radius: 50% 22% 22% 50% / 0% 50% 50% 0%;
+}
+
+#b3 {
+  position: absolute;
+  bottom: .56em;
+  left: .77em;
+  display: block;
+  width: 1.65em;
+  height: .75em;
+  background-color: white;
+  border-radius: 50% 20% 20% 50% / 0% 50% 50% 0%;
+}

@@ -1,0 +1,16 @@
+/* Responsive layout */
+
+@media screen and (max-width: 700px) {
+  .row, .navbar {   
+    flex-direction: column;
+  }
+  .side {
+    display: none;
+  }
+  .navbar a {
+    margin: 0;
+  }
+  #b1 {
+    margin-bottom: .4em;
+  }
+}
