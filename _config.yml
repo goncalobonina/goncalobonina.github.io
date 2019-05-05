@@ -14,9 +14,4 @@ pages_list:
   Tech: '/tech'
   Finance: '/finance'
   Health: '/health'
-  About: '/about'
-
-collections:
-  tech:
-    output: true
-    permalink: /:collection/:title/
+  Arquive: '/arquive'
