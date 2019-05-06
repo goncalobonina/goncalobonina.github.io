@@ -15,4 +15,4 @@ title: Health
   </article>
 {% endfor %}
 
-<h4><a href="/archive#health">See other tech articles on the archive</a></h4>
+<h4><a href="/archive#health">See other health articles on the archive</a></h4>
