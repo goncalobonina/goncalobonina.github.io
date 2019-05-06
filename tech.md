@@ -14,3 +14,5 @@ title: Tech
     <p><a class="post-more" href="{{ post.url }}">Read more</a></p>
   </article>
 {% endfor %}
+
+<h4><a href="/archive">See other tech articles on the archive</a></h4>
