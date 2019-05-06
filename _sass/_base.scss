@@ -52,6 +52,14 @@ a {
   color: black;
 }
 
+.menu {
+  width: 35px;
+  height: 5px;
+  background-color: white;
+  margin: 6px 0;
+  display: none;
+}
+
 /* Column container */
 .row {  
   display: flex;
