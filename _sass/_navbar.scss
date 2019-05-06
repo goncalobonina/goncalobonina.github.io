@@ -40,7 +40,7 @@
 
 #btnControl:checked ~ .responsive-menu {
   display: flex;
-  justify-content: initial; 
+  justify-content: flex-start; 
 }
 
 label {
