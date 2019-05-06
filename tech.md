@@ -15,4 +15,4 @@ title: Tech
   </article>
 {% endfor %}
 
-<h4><a href="/archive">See other tech articles on the archive</a></h4>
+<h4><a href="/archive#tech">See other tech articles on the archive</a></h4>
