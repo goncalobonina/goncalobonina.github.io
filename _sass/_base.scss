@@ -53,12 +53,12 @@ a {
 }
 
 .menu {
-  width: .5em;
-  height: .5em;
+  width: .4em;
+  height: .4em;
   border-radius: 50%;
   background-color: white;
   display: none;
-  margin: .1em;
+  margin: .15em;
 }
 
 #btnControl {
@@ -67,7 +67,7 @@ a {
 
 #btnControl:checked ~ .responsive-menu {
     display: flex;
-    //transition: .5s;
+    transition: .5s;
 }
 
 label {
