@@ -13,7 +13,7 @@ title: Archive
   </article>
 {% endfor %}
 
-<h3>Finance</h3>
+<h3 id="finance">Finance</h3>
 
 {% for post in site.categories.Finance offset:3 %}
   <article class="post archive-post">
@@ -23,7 +23,7 @@ title: Archive
   </article>
 {% endfor %}
 
-<h3>Health</h3>
+<h3 id="health">Health</h3>
 
 {% for post in site.categories.Health offset:3 %}
   <article class="post archive-post">
