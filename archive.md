@@ -3,7 +3,7 @@ layout: page
 title: Archive
 ---
 
-<h3 id="tech">Tech</h3>
+<h3 id="tech" class="archive-categories">Tech</h3>
 
 {% for post in site.categories.Tech offset:3 %}
   <article class="post archive-post">
@@ -13,7 +13,7 @@ title: Archive
   </article>
 {% endfor %}
 
-<h3 id="finance">Finance</h3>
+<h3 id="finance" class="archive-categories">Finance</h3>
 
 {% for post in site.categories.Finance offset:3 %}
   <article class="post archive-post">
@@ -23,7 +23,7 @@ title: Archive
   </article>
 {% endfor %}
 
-<h3 id="health">Health</h3>
+<h3 id="health" class="archive-categories">Health</h3>
 
 {% for post in site.categories.Health offset:3 %}
   <article class="post archive-post">
