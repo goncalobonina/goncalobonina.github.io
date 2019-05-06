@@ -67,7 +67,7 @@ a {
     display: none;
 }
 
-#btnControl:checked + label > div {
+#btnControl:checked ~ .responsive-menu {
     display: flex;
     //transition: .5s;
 }
