@@ -2,6 +2,13 @@
   box-sizing: border-box;
 }
 
+html {
+  background: url(/public/bk.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #3d3d3d;
+}
+
 /* Body */
 body {
   font-family: Arial;
