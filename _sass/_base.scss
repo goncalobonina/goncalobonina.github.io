@@ -65,7 +65,7 @@ a {
 .menu:active {
   .responsive-menu {
     display: flex;
-    
+    transition: .5s;
   }    
 }
 
