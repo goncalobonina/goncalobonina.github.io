@@ -21,22 +21,22 @@ a {
   }
 }
 
-/* Header/logo Title */
+/* Header/logo Title 
 .header {
   padding: 1em;
   //margin: 1em;
   //text-align: center;
   background: #1abc9c;
   color: white;
-}
+}*/
 
-/* Style the top navigation bar */
+/* Navigation bar */
 .navbar {
   display: flex;
   background-color: #333;
 }
 
-/* Style the navigation bar links */
+/* Navigation bar links */
 .navbar a {
   color: white;
   margin-top: 1em;
@@ -107,11 +107,4 @@ label {
   background-color: #aaa;
   width: 100%;
   padding: 20px;
-}
-
-/* Footer */
-.footer {
-  padding: 20px;
-  text-align: right;
-  background: #ddd;
 }
