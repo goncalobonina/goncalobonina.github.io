@@ -53,9 +53,6 @@ a {
 }
 
 .menu {
-  position: relative;
-  right: 0;
-  top: 0;
   width: 35px;
   height: 5px;
   background-color: white;
@@ -70,6 +67,10 @@ a {
 #btnControl:checked ~ .responsive-menu {
     display: flex;
     //transition: .5s;
+}
+
+label {
+  float: right;
 }
 
 /* Column container */
