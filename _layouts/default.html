@@ -8,14 +8,6 @@
   <h4 style="text-align:center">Notes here.</h4>
 </div> -->
 
-<!-- Header 
-<div class="header">
-  <span id="b1">
-    <span id="b2"></span>
-    <span id="b3"></span>
-  </span>
-</div> -->
-
 <!-- Logo Navigation Bar -->
 <div class="navbar">
   <span id="b1">
@@ -28,14 +20,16 @@
       <div class="menu"></div>
       <div class="menu"></div>
       <div class="menu"></div>
-    </div></label>
+    </div>
+  </label>
   <div class="navbar responsive-menu">
   {% for page in site.pages_list %}
     <a class="nohover" href="{{ page[1] }}">{{ page[0] }}</a>
-  {% endfor %}</div>
+  {% endfor %}
+  </div>
 </div>
 
-<!-- The flexible grid (content) -->
+<!-- Flexible grid (content) -->
 <div class="row">
   <div class="side">
     <h2>About Me</h2>
