@@ -15,4 +15,4 @@ title: Finance
   </article>
 {% endfor %}
 
-<h4><a href="/archive#finance">See other tech articles on the archive</a></h4>
+<h4><a href="/archive#finance">See other finance articles on the archive</a></h4>
