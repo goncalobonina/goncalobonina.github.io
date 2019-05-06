@@ -24,9 +24,10 @@
   </span>
   <input type="checkbox" id="btnControl"/>
   <label class="btn" for="btnControl">
-  <div class="menu"></div>
-  <div class="menu"></div>
-  <div class="menu"></div></label>
+    <div class="menu">
+      <div class="menu"></div>
+      <div class="menu"></div>
+    </div></label>
   <div class="navbar responsive-menu">
   {% for page in site.pages_list %}
     <a class="nohover" href="{{ page[1] }}">{{ page[0] }}</a>
