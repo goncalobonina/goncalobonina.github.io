@@ -62,11 +62,14 @@ a {
   margin: 6px 0;
   display: none;
 }
-.menu:active {
-  .responsive-menu {
+
+#btnControl {
+    display: none;
+}
+
+#btnControl:checked + label > div {
     display: flex;
-    transition: .5s;
-  }    
+    //transition: .5s;
 }
 
 /* Column container */
