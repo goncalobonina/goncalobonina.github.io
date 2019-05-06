@@ -12,9 +12,6 @@
   padding: .6em .8em;
   text-decoration: none;
   //text-align: center;
-  align-items: center;
-  flex-direction: column;
-  justify-content: center;
 }
 
 /* Change color on hover */
@@ -30,6 +27,12 @@
   background-color: white;
   display: none;
   margin: .15em;
+}
+
+.responsive-menu {
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
 }
 
 #btnControl {
