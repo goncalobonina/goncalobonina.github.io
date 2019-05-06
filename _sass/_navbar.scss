@@ -35,11 +35,12 @@
 }
 
 #btnControl {
-    display: none;
+  display: none;
 }
 
 #btnControl:checked ~ .responsive-menu {
-    display: flex;
+  display: flex;
+  justify-content: initial; 
 }
 
 label {
