@@ -2,12 +2,11 @@
   box-sizing: border-box;
 }
 
+/* Background */
 html {
   background: url(/public/bk.svg);
   background-repeat: no-repeat;
-  //background-size: cover;
   background-size: 100% auto;
-  background-position: center center;
   background-color: #3d3d3d;
 }
 
