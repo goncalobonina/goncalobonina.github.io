@@ -12,8 +12,15 @@ html {
 
 /* Body */
 body {
-  font-family: Arial;
+  //font-family: Arial;
   margin: 0;
+}
+
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 300;
+  src: url(/public/b.woff2) format('woff2');
 }
 
 /* Links */
