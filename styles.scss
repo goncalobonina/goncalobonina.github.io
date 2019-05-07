@@ -4,6 +4,7 @@
 
 $baseurl:"{{ site.baseurl }}";
 @import "base";
+@import "fontface";
 @import "navbar";
 @import "posts";
 @import "pagination";
