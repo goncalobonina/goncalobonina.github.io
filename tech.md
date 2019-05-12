@@ -5,7 +5,7 @@ title: Tech
 
 {% for post in site.categories.Tech limit:3 %}
   <article class="post">
-    <h1 class="post-title">
+    <h1 class="post-title-category">
       <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
     </h1>
     {% assign ncut = 300 %}
