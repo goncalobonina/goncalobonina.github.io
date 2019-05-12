@@ -6,7 +6,7 @@
 }
 
 /* Navigation bar links */
-.navbar a {
+.navbar a:not(.nonono) {
   color: white;
   margin-top: 1em;
   margin-bottom: 1em;
@@ -16,7 +16,7 @@
 }
 
 /* Change color on hover */
-.navbar a:hover {
+.navbar a:not(.nonono):hover {
   background-color: #ddd;
   color: black;
 }
